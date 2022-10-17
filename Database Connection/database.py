@@ -49,8 +49,8 @@ class db:
     # mydb.commit()
     # print(mycursor.rowcount, "record(s) deleted")
 
-    sql = "UPDATE customers SET address = 'Canyon 123' WHERE address = 'Valley 345'"
-    mycursor.execute(sql)
-    mydb.commit()
-    print(mycursor.rowcount, "record(s) affected")
+    # sql = "UPDATE customers SET address = 'Canyon 123' WHERE address = 'Valley 345'"
+    # mycursor.execute(sql)
+    # mydb.commit()
+    # print(mycursor.rowcount, "record(s) affected")
 
