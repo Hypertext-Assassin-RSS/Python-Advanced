@@ -1,3 +1,4 @@
+from cProfile import label
 from optparse import Option
 from tkinter import *
 
@@ -18,4 +19,10 @@ class Demo:
     chebtn2 = Checkbutton(window,text='Female')
     chebtn2.pack()
     
+    w = Entry(window,textvariable='user')
+    w.pack()
+
+    bottomframe = Frame(window)
+    bottomframe.pack( side = LEFT  )
+
     window.mainloop()
